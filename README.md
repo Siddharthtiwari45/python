@@ -83,3 +83,41 @@ b=["deepak","amit","reena","meena"]
 c=a+b
 
 print(c)
+
+<!-- ----------------------------------------------------------------- -->
+class Record:
+    def addNum(self):
+        a=int(input("enter first number:"))
+        b=int(input("enter second number:"))
+        print("Addition",a+b)
+    def subNum(self):
+        a=int(input("enter first number:"))
+        b=int(input("enter second number:"))
+        print("Subtraction",a-b)
+
+r=Record()
+
+i=input("enter + for Add\nenter - for subtract\n")
+if(i=="+"):
+    r.addNum()
+elif(i=="-"):
+    r.subNum()
+else:
+    print("sorry")
+
+
+
+
+
+class User:
+    def firstname(self):
+        f=input("enter first name:")
+        print("First name is",f)
+
+    def lastname(self):
+        l=input("enter last name:")
+        print("LAst name is",l)
+
+u=User()
+u.firstname()
+u.lastname()
